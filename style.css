@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.start{
+    width: 100%;
+    height: 70vh;
+}
+.body{
+    overflow: hidden;
+}
+.start img{
+    width: 100%;
+    height: 120vh;
+    z-index: -9;
+}
+.find .cart{
+    width: 701px;
+    height: 537px;
+    position: relative;
+    top: 0px;
+    left: 63px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #fff;
+    box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.1);
+    padding: 0 5%;
+    
+
+}
+.find .cart h1{
+    font-size: 39px;
+    position: relative;
+    top: 96px;
+}
+.find .cart span{
+    font-size: 39px;
+    color: rgb(247, 128, 102,1);
+    /* position: relative;
+    top: 96px; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.find .cart p{
+    font-size: 20px;
+    position: relative;
+    top: 116px;
+    color: rgb(77, 76, 76);
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1.3px;
+}
+.find .cart .btn button{
+    font-size: 18px;
+    position: relative;
+    top: 146px;
+    background-color:rgb(247, 128, 102,1) ;
+    width: 200px;
+    height: 50px;
+    gap: 8px;
+    border: none;
+    color: #fff;
+}
+.find .cart .btn button i{
+    color: #fff;
+}
+.promoting{
+    position: relative;
+    top: 200px;
+    
+}
+.promoting .cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.promoting .cards .card{
+    width: 400px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    /* background-color: rgb(255, 0, 0); */
+}
+.promoting .cards .card .card_img img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: -50px;
+    top: -30px;
+}
+.promoting .cards .card .card_text p{
+    font-size: 20px;
+    color: #424242;
+    position: relative;
+    top: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.promoting .cards .card .card_text span{
+    font-size: 22px;
+    color: rgb(247, 128, 102,1);
+    position: relative;
+    top: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+
+.promoting .cards .card2{
+    width: 400px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    /* background-color: rgb(255, 0, 0); */
+}
+.promoting .cards .card2 .card2_img img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: -100px;
+    top: -30px;
+}
+.promoting .cards .card2 .card2_text p{
+    font-size: 20px;
+    color: #424242;
+    position: relative;
+    top: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.promoting .cards .card2 .card2_text span{
+    font-size: 22px;
+    color: rgb(247, 128, 102,1);
+    position: relative;
+    top: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.promoting .cards .card3{
+    width: 400px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    /* background-color: rgb(255, 0, 0); */
+}
+.promoting .cards .card3 .card3_img img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: -80px;
+    top: -30px;
+}
+.promoting .cards .card3 .card2_text p{
+    font-size: 20px;
+    color: #424242;
+    position: relative;
+    top: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.promoting .cards .card3 .card3_text span{
+    font-size: 22px;
+    color: rgb(247, 128, 102,1);
+    position: relative;
+    top: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+.make h1{
+    position: relative;
+    top: 400px;
+    left: 60px;
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 600px;
+    gap: 60px;
+    
+}
+.choose .choose1{
+    width: 300px;
+    height: 300px;
+}
+.choose .choose1 .choose_img img{
+    width: 32px;
+    height: 32px;
+}
+.choose .choose1 .choose_text h2{
+    position: relative;
+    top: 60px;
+    font-size: 22px;
+}
+.choose .choose1 .choose_text p{
+    position: relative;
+    top: 100px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+    color: rgb(75, 75, 75);
+    
+}
+
+.choose .choose1 .choose_text span{
+    position: relative;
+    top: 120px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(247, 128, 101,1);
+    font-size: 18px;
+    
+}
+.join{
+    position: relative;
+    top: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.join .join_text{
+    width: 250px;
+    position: relative;
+    left: -40px;
+}
+.join .join_text h1{
+    font-family: "Montserrat", sans-serif;
+}
+.join .join_text p{
+    font-size: 16px;
+    color: #5d5a5a;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 20px;
+    line-height: 23px;
+}
+.join .join_text .join_btn button{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 70px;
+    background: rgba(247, 128, 101, 1);
+    border: none;
+    width: 200px;
+    height: 45px;
+}
+.join .join_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.join .join_img .img1 img{
+    width: 230px;
+    height: 419px;
+}
+.join .join_img .img1 h3{
+    position: relative;
+    top: 20px;
+}
+.join .join_img .img1 p{
+    position: relative;
+    top: 25px;
+    font-size: 16px;
+    color: #424242;
+}
+.join .join_img .img1 span{
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    color: rgb(247, 128, 102,1);
+} 
+.our{
+    position: relative;
+    top: 1000px;
+    padding: 0 5%;
+    
+}
+.our .cards{
+    position: relative;
+    top: 100px;
+}
+.our .cards .card1{
+    width: 360px;
+    height: 330px;
+    /* background-color: aqua; */
+}
+.our .cards .card1 .card1_text h2{
+    position: relative;
+    top: 50px;
+}
+.our .cards .card1 .card1_text p{
+    position: relative;
+    top: 120px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #5d5a5a;
+    line-height: 23px;
+}
+.our .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+}
+.footer{
+    position: relative;
+    top: 1200px;
+    padding: 0 5%;
+    width: 100%;
+    height: 500px;
+    background-color: #efeded;
+    /* display: flex;
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center;
+    gap: 150px; */ 
+}
+.footer .text1 h1{
+    font-size: 40px;
+
+}
+.footer .text1 p{
+    font-size: 24px;
+
+}
+.footer .text1{
+    width: 150px;
+    position: relative;
+    top: -25px;
+    left: -100px;
+}
+.footer .a1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    left: -100px;
+}
+.footer .a1 .a{
+    color: #424242;
+    position: relative;
+    top: 20px;
+}
+.footer .a1 .s{
+    color: #424242;
+    position: relative;
+    top: 40px;
+}
+.footer .a1 .d{
+    color: #424242;
+    position: relative;
+    top: 60px;
+}
+.footer .a1 .f{
+    color: #424242;
+    position: relative;
+    top: 80px;
+}
+.footer .a1{
+    position: relative;
+    top: -79px;
+}
+
+
+
+.footer .a2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    left: -50px;
+}
+.footer .a2 .a{
+    color: #424242;
+    position: relative;
+    top: 20px;
+}
+.footer .a2 .s{
+    color: #424242;
+    position: relative;
+    top: 40px;
+}
+.footer .a2 .d{
+    color: #424242;
+    position: relative;
+    top: 60px;
+}
+
+.footer .a2{
+    position: relative;
+    top: -89px;
+}
+
+
+
+
+.footer .a3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.footer .a3 .a{
+    color: #424242;
+    position: relative;
+    top: 20px;
+}
+.footer .a3 .s{
+    color: #424242;
+    position: relative;
+    top: 40px;
+}
+.footer .a3 .d{
+    color: #424242;
+    position: relative;
+    top: 60px;
+}
+.footer .a3 .f{
+    color: #424242;
+    position: relative;
+    top: 80px;
+}
+.footer .a3{
+    position: relative;
+    top: -79px;
+}
+.when{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    position: relative;
+    top: 100px;
+}
+.footer .line{
+    width: 1300px;
+    height: 1px;
+    border: 1px solid #adacac;
+    position: relative;
+    top: 190px;
+}
+.footer .footer_footer{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 230px;
+}
+.footer .footer_footer .a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.footer .footer_footer .a a{
+    color: #424242;
+}
+.footer .footer_footer p{
+    color: #5d5a5a;
+}
